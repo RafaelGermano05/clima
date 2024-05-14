@@ -57,10 +57,18 @@ cityInput.addEventListener("keyup", (e) => {
     }
 });
 
-cityInput.addEventListener("keyup", (e) => {
-    if(e.code === "Enter") {
-        const city = e.target.value
+// cityInput.addEventListener("keyup", (e) => {
+//     if(e.code === "Enter") {
+//         const city = e.target.value
 
-        showWeatherData(city);
-    }
-})
+//         showWeatherData(city);
+//     }
+// })
+
+// cityInput.addEv entListener("keyup", (e) => {
+//     if(e.code === "Enter") {
+//         const city = e.target.value
+
+//         showWeatherData(city);
+//     }
+// })
